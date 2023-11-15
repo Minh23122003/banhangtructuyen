@@ -55,7 +55,7 @@ if __name__ == '__main__':
         # db.session.commit()
         db.create_all()
 
-        import hashlib
-        u = User(name='Admin', username='admin', password=str(hashlib.md5('123456'.encode('utf-8')).hexdigest()))
-        db.session.add(u)
-        db.session.commit()
+        # import hashlib
+        # u = User(name='Admin', username='admin', password=str(hashlib.md5('123456'.encode('utf-8')).hexdigest()))
+        # db.session.add(u)
+        # db.session.commit()
